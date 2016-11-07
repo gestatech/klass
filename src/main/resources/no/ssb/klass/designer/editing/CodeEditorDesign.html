@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+ <head>
+  <meta charset="UTF-8" name="design-properties" content="{&quot;RULERS_VISIBLE&quot;:true,&quot;GUIDELINES_VISIBLE&quot;:false,&quot;SNAP_TO_OBJECTS&quot;:true,&quot;SNAP_TO_GRID&quot;:true,&quot;SNAPPING_DISTANCE&quot;:10,&quot;JAVA_SOURCES_ROOT&quot;:&quot;src/main/java&quot;,&quot;THEME&quot;:&quot;klasstheme&quot;}">
+  <meta charset="UTF-8" name="package-mapping" content="no_ssb_klass_designer_editing:no.ssb.klass.designer.editing">
+  <meta charset="UTF-8" name="package-mapping" content="no_ssb_klass_designer_editing_codetables:no.ssb.klass.designer.editing.codetables">
+  <meta charset="UTF-8" name="package-mapping" content="no_ssb_klass_designer_editing_codetables_levels:no.ssb.klass.designer.editing.codetables.levels">
+ </head> 
+ <body> 
+  <vaadin-vertical-layout size-full> 
+   <vaadin-horizontal-layout style-name="small-margin-right small-margin-top" spacing :right> 
+    <vaadin-button plain-text _id="importButton" :middle>
+      Importer fra fil 
+    </vaadin-button> 
+    <vaadin-button plain-text _id="exportButton" :middle>
+      Eksporter til fil 
+    </vaadin-button> 
+   </vaadin-horizontal-layout> 
+   <vaadin-grid-layout style-name="code-editor" size-full :expand> 
+    <row> 
+     <column> 
+      <vaadin-horizontal-layout style-name="bold" width-full :right> 
+       <vaadin-horizontal-layout :expand></vaadin-horizontal-layout> 
+       <vaadin-label style-name="bold" size-auto plain-text _id="primaryLanguage" :middle :center :expand>
+         Bokmål 
+       </vaadin-label> 
+       <no_ssb_klass_designer_editing_codetables_levels-hierarchy-toggle-component _id="hierarchyToggleComponent" :right :expand></no_ssb_klass_designer_editing_codetables_levels-hierarchy-toggle-component> 
+      </vaadin-horizontal-layout> 
+     </column> 
+     <column> 
+      <no_ssb_klass_designer_editing-edit-languages-component size-full _id="editTranslations"></no_ssb_klass_designer_editing-edit-languages-component> 
+     </column> 
+    </row> 
+    <row> 
+     <column> 
+      <no_ssb_klass_designer_editing_codetables_levels-primary-levels-component id="primary-levels" width-full height="55px" _id="primaryLevels"></no_ssb_klass_designer_editing_codetables_levels-primary-levels-component> 
+     </column> 
+     <column> 
+      <no_ssb_klass_designer_editing_codetables_levels-translation-levels-component id="translation-levels" width-full height="55px" _id="translationLevels"></no_ssb_klass_designer_editing_codetables_levels-translation-levels-component> 
+     </column> 
+    </row> 
+    <row expand="1"> 
+     <column> 
+      <no_ssb_klass_designer_editing_codetables-primary-code-table style-name="no-header no-vertical-lines" id="primary-codes" size-full _id="primaryCodeTable"></no_ssb_klass_designer_editing_codetables-primary-code-table> 
+     </column> 
+     <column> 
+      <no_ssb_klass_designer_editing_codetables-translation-code-table style-name="no-header no-vertical-lines" id="translation-codes" size-full _id="translationCodeTable"></no_ssb_klass_designer_editing_codetables-translation-code-table> 
+     </column> 
+    </row> 
+    <row></row> 
+   </vaadin-grid-layout> 
+  </vaadin-vertical-layout>  
+ </body>
+</html>

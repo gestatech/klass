@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+ <head>
+  <meta charset="UTF-8" name="design-properties" content="{&quot;RULERS_VISIBLE&quot;:true,&quot;GUIDELINES_VISIBLE&quot;:false,&quot;SNAP_TO_OBJECTS&quot;:true,&quot;SNAP_TO_GRID&quot;:true,&quot;SNAPPING_DISTANCE&quot;:10,&quot;JAVA_SOURCES_ROOT&quot;:&quot;src/main/java&quot;,&quot;THEME&quot;:&quot;klasstheme&quot;}">
+     <meta charset="UTF-8" name="package-mapping"
+           content="no_ssb_klass_designer_admin_tabs:no.ssb.klass.designer.admin.tabs">
+ </head>
+ <body>
+ <vaadin-vertical-layout margin>
+     <vaadin-label style-name="h2" size-auto plain-text>
+         Administrasjon
+     </vaadin-label>
+     <vaadin-tab-sheet :expand>
+         <tab caption="Overføre kodeverk" selected>
+             <no_ssb_klass_designer_admin_tabs-ownership-tab
+                     caption="Overføre kodeverk"></no_ssb_klass_designer_admin_tabs-ownership-tab>
+         </tab>
+         <tab caption="Redigere område">
+             <vaadin-vertical-layout size-full></vaadin-vertical-layout>
+         </tab>
+         <tab caption="Kontaktpersoner">
+             <no_ssb_klass_designer_admin_tabs-sections-tab caption="Kontaktpersoner"
+                                                            _id="sectionsTab"></no_ssb_klass_designer_admin_tabs-sections-tab>
+         </tab>
+         <tab caption="Administrer brukere">
+             <no_ssb_klass_designer_admin_tabs-users-tab></no_ssb_klass_designer_admin_tabs-users-tab>
+         </tab>
+     </vaadin-tab-sheet>
+  </vaadin-vertical-layout>  
+ </body>
+</html>

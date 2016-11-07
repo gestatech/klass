@@ -21,5 +21,6 @@ REST api documentation may be accessed at (must build with -Pdocumentation):
 
     http://localhost:8080/api/klass/v1/api-guide.html
     
+
 ### known issues
     Frontend lacks localization

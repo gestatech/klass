@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="UTF-8" name="design-properties"
+       content="{&quot;RULERS_VISIBLE&quot;:true,&quot;GUIDELINES_VISIBLE&quot;:false,&quot;SNAP_TO_OBJECTS&quot;:true,&quot;SNAP_TO_GRID&quot;:true,&quot;SNAPPING_DISTANCE&quot;:10,&quot;JAVA_SOURCES_ROOT&quot;:&quot;src/main/java&quot;,&quot;THEME&quot;:&quot;klasstheme&quot;}">
+ <meta charset="UTF-8" name="package-mapping" content="no_ssb_klass_designer_editing:no.ssb.klass.designer.editing">
+</head>
+<body>
+<vaadin-vertical-layout margin-left="true" margin-top="true">
+ <vaadin-horizontal-layout width-full="true">
+  <vaadin-vertical-layout style-name="language-separator-line" spacing="true" margin-right="true"
+                          _id="primaryLanguageLayout">
+   <vaadin-label style-name="bold" size-auto="true" plain-text="" _id="primaryLanguageLabel" :center="">
+    Bokmål
+   </vaadin-label>
+   <vaadin-text-field caption="Navn" width-full="true" _id="primaryNameTextfield"></vaadin-text-field>
+   <vaadin-text-area caption="Beskrivelse" width-full="true" _id="primaryDescriptionTextArea"></vaadin-text-area>
+   <vaadin-combo-box caption="Kontakt person" item-caption-mode="id" width-full="true" _id="contactPersonCombobox">
+    <option>Option 1</option>
+    <option>Option 2</option>
+    <option>Option 3</option>
+   </vaadin-combo-box>
+   <vaadin-text-field caption="Vedlikeholdes av seksjon" width-full="true" readonly="true"
+                      _id="sectionTextfield"></vaadin-text-field>
+  </vaadin-vertical-layout>
+  <vaadin-vertical-layout spacing="true" margin-left="true">
+   <no_ssb_klass_designer_editing-edit-languages-component _id="languageSelect"
+                                                           :right=""></no_ssb_klass_designer_editing-edit-languages-component>
+   <vaadin-vertical-layout margin-right="true" _id="secondLanguageLayout">
+    <vaadin-text-field caption="Navn" width-full="true" _id="secondaryNameTextfield"></vaadin-text-field>
+    <vaadin-text-area caption="Beskrivelse" width-full="true" _id="secondaryDescriptionTextArea"></vaadin-text-area>
+   </vaadin-vertical-layout>
+   <vaadin-vertical-layout margin-right="true" _id="thirdLanguageLayout">
+    <vaadin-text-field caption="Navn" width-full="true" _id="thirdNameTextfield"></vaadin-text-field>
+    <vaadin-text-area caption="Beskrivelse" width-full="true" _id="thirdDescriptionTextArea"></vaadin-text-area>
+   </vaadin-vertical-layout>
+  </vaadin-vertical-layout>
+ </vaadin-horizontal-layout>
+</vaadin-vertical-layout>
+</body>
+</html>

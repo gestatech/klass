@@ -15,12 +15,12 @@ Klass provides a REST api that clients can use to read classifications, and a Va
     
 Frontend may be accessed at:
 
-    http://localhost:8080/klassui
+[http://localhost:8080/klassui]()
     
 REST api documentation may be accessed at (must build with -Pdocumentation):
 
-    http://localhost:8080/api/klass/v1/api-guide.html
-    
+[http://localhost:8080/api/klass/v1/api-guide.html]()
 
-### known issues
-    Frontend lacks localization
+## known issues
+
+* Frontend lacks localization
